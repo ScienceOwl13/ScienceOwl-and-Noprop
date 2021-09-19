@@ -1,11 +1,21 @@
 .google-homepage {
-  height: 100vh;
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-container {
+  margin: 0 auto; 
+}
+
+
+
+.google-homepage {
+  height: 100vh; /* vh == view height */
+  width: 100vw; /* vw == view width */
 }
 .search-container {
   width: 450px;
   height: 35px;
-  /* position: absolute; */
 }
 .search-bar {
   position: relative;
