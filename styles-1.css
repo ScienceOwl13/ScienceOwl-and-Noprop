@@ -1,19 +1,29 @@
 .google-homepage {
-  height: 100vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   
   /*left: 50em nor 50% don't work*/
 }
-.search-container {
-  width: 450px;
-  height: 35px; 
-  
-  /* position: absolute; */
+.search-container {  
+  /* margin: 0 auto; */
+
+  /* this margin style above will do the same visually as having */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* on your parent element. usually flex-box is preferable */
 }
 
+
+
+.google-homepage {
+  height: 100vh; /* vh == view height */
+  width: 100vw; /* vw == view width */
+}
+.search-container {
+  width: 450px;
+  height: 35px;
+}
 .search-bar {
   position: relative;
   width: 100%;
