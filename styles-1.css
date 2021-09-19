@@ -3,6 +3,7 @@
   width: 100vw;
   display: flex;
   justify-content: center;
+  align-items: center;
   
   /*left: 50em nor 50% don't work*/
 }
